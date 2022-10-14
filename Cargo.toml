@@ -1,0 +1,19 @@
+[package]
+name = "bolt"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+anyhow = "1.0.65"
+clap = { version = "4.0.15", features = ["derive"] }
+futures = "0.3.24"
+tokio = { version = "1.21.2", features = ["full"] }
+
+dioxus = { git = "https://github.com/dioxuslabs/dioxus" }
+dioxus-desktop = { git = "https://github.com/dioxuslabs/dioxus" }
+fermi = { git = "https://github.com/dioxuslabs/dioxus" }
+# dioxus = { git = "https://github.com/dioxuslabs/dioxus", rev = "b32fd2d2cddce8a1fe79fe83c7575d0699665d34" }
+# dioxus-desktop = { git = "https://github.com/dioxuslabs/dioxus", rev = "b32fd2d2cddce8a1fe79fe83c7575d0699665d34" }
+# fermi = { git = "https://github.com/dioxuslabs/dioxus", rev = "b32fd2d2cddce8a1fe79fe83c7575d0699665d34" }
